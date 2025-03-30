@@ -31,6 +31,17 @@
         </form>
     </div>
 
+    <h1 class="text-center">Calculadora</h1>
+
+    <div class="d-flex justify-content-center gap-5 align-middle ">
+        <form class="w-75 my-5 d-flex justify-content-center gap-5 align-middle " action="./dados/calcular.php" method="post">
+            <input type="text" name="n1" placeholder="numero1">
+            <p>+</p>
+            <input type="text" name="n2" placeholder="numero2">
+            <button type="submit" class="btn btn-primary">Calcular</button>
+        </form>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
