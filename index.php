@@ -8,7 +8,7 @@
     <title>Estudando php</title>
 </head>
 
-<body>
+<body class="d-flex flex-column justify-content-center justify-content-center">
     <?php include "./components/navbar.php" ?>
     <h1 class="text-center">Formularios</h1>
 
@@ -41,6 +41,17 @@
             <button type="submit" class="btn btn-primary">Calcular</button>
         </form>
     </div>
+
+
+
+
+        <div class="m-auto">
+            <h1>Senhador - Gerador de senhas</h1>
+            <?php include "./dados/senhas.php" ?>
+        </div>
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
